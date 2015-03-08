@@ -69,5 +69,5 @@ var pages = foldero('./pages', {
   });
 ```
 
-## [License](https://github.com/flitbit/foldero/raw/master/LICENSE)
+## [License (MIT)](https://github.com/flitbit/foldero/raw/master/LICENSE)
 
