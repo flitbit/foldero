@@ -15,14 +15,14 @@ A light-weight, flexible, folder-to-object loader utility.
 The `foldero` function takes a `path` and an optional `options` argument.
 
 * `path` {string} - either the file or folder path that `foldero` should inspect when constructing a result object.
-* `options` {object} - an optional object specifying the following:
-  * `calculateName` {function} - a callback function used to name the properties on the result object.
+* `options` {object} - an object specifying the following:
+  * `calculateName` {function} - a callback used to name the properties on the result object.
   * `ignore` {string} - names a file path to ignore
-  * `index` {string} default='index.js' - the name of file that should be treated as a folder's _index_ file. If specified, wherever a file with this name appears in the folder hierarchy, only that file is loaded from the folder.
-  * `loader` {function} - a callback funciton used to _load_ each file that has been whitelisted.
+  * `index` {string} _default=_`index.js` - a file name to be treated as a folder's index. If specified, wherever a file with matching name appears, only that file is loaded from the folder.
+  * `loader` {function} - a callback used to _load_ each file that has been whitelisted.
   * `noIndex` {boolean} - indicates that processing of index files should be skipped.
   * `relative` {string} - a base-path specifying how relative paths in the `path` argument are interpreted. Without this option all paths are treated as absolute paths.
-  * `whitelist` {function|string} - a callback function used to whitelist files to be loaded. If a string is specified it is transformed into a RegEx and used to whitelist files.
+  * `whitelist` {function|string} - a callback used to whitelist files to be loaded. If a string is specified it is transformed into a RegEx and used to test file names for inclusion.
 
 #### Basics
 
