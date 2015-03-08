@@ -1,4 +1,4 @@
-# foldero
+# foldero [![Build Status](https://travis-ci.org/flitbit/foldero.png?branch=master)](https://travis-ci.org/flitbit/foldero)
 
 A light-weight, flexible, folder-to-object loader utility.
 
