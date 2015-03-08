@@ -1,0 +1,35 @@
+{
+  "name": "foldero",
+  "version": "0.1.0",
+  "description": "A light-weight, flexible, folder-to-object loader utility.",
+  "author": "Phillip Clark <phillip@flitbit.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flitbit/foldero.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flitbit/foldero/issues"
+  },
+  "keywords": [
+    "require",
+    "folder",
+    "directory",
+    "import",
+    "tree"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.0.1"
+  },
+  "readmeFilename": "README.md",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/flitbit/foldero/raw/master/LICENSE"
+    }
+  ]
+}
