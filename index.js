@@ -4,7 +4,7 @@ var fs = require('fs');
 var path = require('path');
 var util = require('util');
 
-var WHITELIST_JS = '^/(.+)\.js(on)?$';
+var WHITELIST_JS = '^(/|[A-Za-z]\:)(.+)\.js(on)?$';
 var INDEX_FILE_NAME = 'index.js';
 
 function reTest(re, f) {
