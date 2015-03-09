@@ -1,8 +1,11 @@
 {
   "name": "foldero",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A light-weight, flexible, folder-to-object loader utility.",
   "author": "Phillip Clark <phillip@flitbit.com>",
+  "contributors": [
+    "Eli Mumford <elimumford@gmail.com>"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
