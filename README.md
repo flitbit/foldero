@@ -23,6 +23,7 @@ The `foldero` function takes a `path` and an optional `options` argument.
   * `noIndex` {boolean} - indicates that processing of index files should be skipped.
   * `relative` {string} - a base-path specifying how relative paths in the `path` argument are interpreted. Without this option all paths are treated as absolute paths.
   * `whitelist` {function|string} - a callback used to whitelist files to be loaded. If a string is specified it is transformed into a RegEx and used to test file names for inclusion.
+  * `recurse` {boolean} - indicates whether or not sub folders should be traversed. Default false. 
 
 #### Basics
 
